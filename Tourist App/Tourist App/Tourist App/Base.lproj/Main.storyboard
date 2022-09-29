@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Tourist_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Pmi-qn-Zng">
+                                <rect key="frame" x="0.0" y="48" width="414" height="814"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="250" id="yMu-6N-X3o">
+                                        <rect key="frame" x="0.0" y="50" width="414" height="250"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="yMu-6N-X3o" id="7Gh-JW-BEz">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="250"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dubrovunik" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uTw-HR-kfC">
+                                                    <rect key="frame" x="25" y="204" width="364" height="30"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="30" id="UUE-du-8zZ"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dubrovnik" translatesAutoresizingMaskIntoConstraints="NO" id="x4C-q0-aT0">
+                                                    <rect key="frame" x="30" y="21" width="354" height="178"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="240" id="3ao-AA-GMK"/>
+                                                        <constraint firstAttribute="height" constant="128" id="ml2-Iw-8Y2"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="uTw-HR-kfC" firstAttribute="top" secondItem="x4C-q0-aT0" secondAttribute="bottom" constant="5" id="1LW-dc-jOa"/>
+                                                <constraint firstItem="x4C-q0-aT0" firstAttribute="leading" secondItem="7Gh-JW-BEz" secondAttribute="leadingMargin" constant="10" id="4gs-N7-ezW"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="uTw-HR-kfC" secondAttribute="trailing" constant="5" id="5uM-ue-FIb"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="uTw-HR-kfC" secondAttribute="bottom" constant="5" id="Kdu-1n-a27"/>
+                                                <constraint firstItem="x4C-q0-aT0" firstAttribute="top" secondItem="7Gh-JW-BEz" secondAttribute="topMargin" constant="10" id="OKg-ch-ebY"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="x4C-q0-aT0" secondAttribute="trailing" constant="10" id="Vgm-c5-VCS"/>
+                                                <constraint firstItem="uTw-HR-kfC" firstAttribute="leading" secondItem="7Gh-JW-BEz" secondAttribute="leadingMargin" constant="5" id="e3P-Gh-nX1"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="L1I-3m-tBs"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="pn7-cN-Dja"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Pmi-qn-Zng" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="NyR-57-xBV"/>
+                            <constraint firstItem="Pmi-qn-Zng" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="YeE-0E-byN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Pmi-qn-Zng" secondAttribute="bottom" id="Zf4-cW-wDT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Pmi-qn-Zng" secondAttribute="trailing" id="jaH-HU-UUd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tblView" destination="Pmi-qn-Zng" id="BY2-h1-bg3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="81.538461538461533" y="-34.123222748815166"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Dubrovnik" width="640" height="426.5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
