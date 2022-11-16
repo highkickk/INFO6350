@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FD044312924634B009F7626 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD044302924634B009F7626 /* AppDelegate.swift */; };
+		3FD044332924634B009F7626 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD044322924634B009F7626 /* SceneDelegate.swift */; };
+		3FD0443A2924634C009F7626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FD044392924634C009F7626 /* Assets.xcassets */; };
+		3FD0443D2924634C009F7626 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FD0443B2924634C009F7626 /* LaunchScreen.storyboard */; };
+		3FD04445292464D0009F7626 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FD04444292464CB009F7626 /* GoogleService-Info.plist */; };
+		3FEDEE1C29247010008793D1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEDEE1B29247010008793D1 /* LoginViewController.swift */; };
+		3FEDEE2D2924778B008793D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEDEE2C2924778B008793D1 /* Main.storyboard */; };
+		3FEDEE3029247844008793D1 /* StringUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEDEE2F29247844008793D1 /* StringUtilities.swift */; };
+		3FEDEE3229247862008793D1 /* KeyChainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEDEE3129247862008793D1 /* KeyChainService.swift */; };
+		3FEDEE3429247CF8008793D1 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEDEE3329247CF7008793D1 /* DashboardViewController.swift */; };
+		3FEDEE3729248652008793D1 /* AddAPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEDEE3629248652008793D1 /* AddAPostViewController.swift */; };
+		3FEDEE3C29249F92008793D1 /* ImagePostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEDEE3A29249F92008793D1 /* ImagePostTableViewCell.swift */; };
+		3FEDEE3D29249F92008793D1 /* ImagePostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FEDEE3B29249F92008793D1 /* ImagePostTableViewCell.xib */; };
+		3FEDEE402924C16B008793D1 /* PostsClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEDEE3F2924C16B008793D1 /* PostsClass.swift */; };
+		D97DF8E90144EFA0E0DB567F /* Pods_TwitterTok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5D1FF990351A0542FB17B4 /* Pods_TwitterTok.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FD0442D2924634B009F7626 /* TwitterTok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterTok.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FD044302924634B009F7626 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FD044322924634B009F7626 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3FD044392924634C009F7626 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FD0443C2924634C009F7626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FD0443E2924634C009F7626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FD04444292464CB009F7626 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3FEDEE1B29247010008793D1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3FEDEE2C2924778B008793D1 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3FEDEE2F29247844008793D1 /* StringUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtilities.swift; sourceTree = "<group>"; };
+		3FEDEE3129247862008793D1 /* KeyChainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainService.swift; sourceTree = "<group>"; };
+		3FEDEE3329247CF7008793D1 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		3FEDEE3629248652008793D1 /* AddAPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAPostViewController.swift; sourceTree = "<group>"; };
+		3FEDEE3A29249F92008793D1 /* ImagePostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePostTableViewCell.swift; sourceTree = "<group>"; };
+		3FEDEE3B29249F92008793D1 /* ImagePostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImagePostTableViewCell.xib; sourceTree = "<group>"; };
+		3FEDEE3F2924C16B008793D1 /* PostsClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsClass.swift; sourceTree = "<group>"; };
+		7095F76D16670877DAA3BF14 /* Pods-TwitterTok.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitterTok.release.xcconfig"; path = "Target Support Files/Pods-TwitterTok/Pods-TwitterTok.release.xcconfig"; sourceTree = "<group>"; };
+		C7F42EB3C4A8C5806311C949 /* Pods-TwitterTok.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitterTok.debug.xcconfig"; path = "Target Support Files/Pods-TwitterTok/Pods-TwitterTok.debug.xcconfig"; sourceTree = "<group>"; };
+		EC5D1FF990351A0542FB17B4 /* Pods_TwitterTok.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitterTok.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FD0442A2924634B009F7626 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97DF8E90144EFA0E0DB567F /* Pods_TwitterTok.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FD044242924634B009F7626 = {
+			isa = PBXGroup;
+			children = (
+				3FD0442F2924634B009F7626 /* TwitterTok */,
+				3FD0442E2924634B009F7626 /* Products */,
+				63029AC5F15D4237C106F70D /* Pods */,
+				A473F27934560441F555246C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3FD0442E2924634B009F7626 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FD0442D2924634B009F7626 /* TwitterTok.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FD0442F2924634B009F7626 /* TwitterTok */ = {
+			isa = PBXGroup;
+			children = (
+				3FEDEE3E2924C155008793D1 /* Models */,
+				3FEDEE352924863A008793D1 /* AddAPost */,
+				3FEDEE2E2924782A008793D1 /* Utilities */,
+				3FEDEE1D2924703F008793D1 /* Dashboard */,
+				3FEDEE1A29246FB2008793D1 /* Login */,
+				3FD044302924634B009F7626 /* AppDelegate.swift */,
+				3FD044322924634B009F7626 /* SceneDelegate.swift */,
+				3FD044392924634C009F7626 /* Assets.xcassets */,
+				3FD0443B2924634C009F7626 /* LaunchScreen.storyboard */,
+				3FD0443E2924634C009F7626 /* Info.plist */,
+				3FD04444292464CB009F7626 /* GoogleService-Info.plist */,
+				3FEDEE2C2924778B008793D1 /* Main.storyboard */,
+			);
+			path = TwitterTok;
+			sourceTree = "<group>";
+		};
+		3FEDEE1A29246FB2008793D1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3FEDEE1B29247010008793D1 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		3FEDEE1D2924703F008793D1 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				3FEDEE3329247CF7008793D1 /* DashboardViewController.swift */,
+				3FEDEE3A29249F92008793D1 /* ImagePostTableViewCell.swift */,
+				3FEDEE3B29249F92008793D1 /* ImagePostTableViewCell.xib */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		3FEDEE2E2924782A008793D1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3FEDEE2F29247844008793D1 /* StringUtilities.swift */,
+				3FEDEE3129247862008793D1 /* KeyChainService.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		3FEDEE352924863A008793D1 /* AddAPost */ = {
+			isa = PBXGroup;
+			children = (
+				3FEDEE3629248652008793D1 /* AddAPostViewController.swift */,
+			);
+			path = AddAPost;
+			sourceTree = "<group>";
+		};
+		3FEDEE3E2924C155008793D1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3FEDEE3F2924C16B008793D1 /* PostsClass.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		63029AC5F15D4237C106F70D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7F42EB3C4A8C5806311C949 /* Pods-TwitterTok.debug.xcconfig */,
+				7095F76D16670877DAA3BF14 /* Pods-TwitterTok.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A473F27934560441F555246C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC5D1FF990351A0542FB17B4 /* Pods_TwitterTok.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FD0442C2924634B009F7626 /* TwitterTok */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FD044412924634C009F7626 /* Build configuration list for PBXNativeTarget "TwitterTok" */;
+			buildPhases = (
+				6D6738F219B2D519636FCF3F /* [CP] Check Pods Manifest.lock */,
+				3FD044292924634B009F7626 /* Sources */,
+				3FD0442A2924634B009F7626 /* Frameworks */,
+				3FD0442B2924634B009F7626 /* Resources */,
+				258F808F7224395E5D7592A5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwitterTok;
+			productName = TwitterTok;
+			productReference = 3FD0442D2924634B009F7626 /* TwitterTok.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FD044252924634B009F7626 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					3FD0442C2924634B009F7626 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 3FD044282924634B009F7626 /* Build configuration list for PBXProject "TwitterTok" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FD044242924634B009F7626;
+			productRefGroup = 3FD0442E2924634B009F7626 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FD0442C2924634B009F7626 /* TwitterTok */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FD0442B2924634B009F7626 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEDEE2D2924778B008793D1 /* Main.storyboard in Resources */,
+				3FD0443D2924634C009F7626 /* LaunchScreen.storyboard in Resources */,
+				3FEDEE3D29249F92008793D1 /* ImagePostTableViewCell.xib in Resources */,
+				3FD04445292464D0009F7626 /* GoogleService-Info.plist in Resources */,
+				3FD0443A2924634C009F7626 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		258F808F7224395E5D7592A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TwitterTok/Pods-TwitterTok-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TwitterTok/Pods-TwitterTok-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TwitterTok/Pods-TwitterTok-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D6738F219B2D519636FCF3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TwitterTok-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FD044292924634B009F7626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEDEE402924C16B008793D1 /* PostsClass.swift in Sources */,
+				3FEDEE1C29247010008793D1 /* LoginViewController.swift in Sources */,
+				3FEDEE3429247CF8008793D1 /* DashboardViewController.swift in Sources */,
+				3FD044312924634B009F7626 /* AppDelegate.swift in Sources */,
+				3FEDEE3C29249F92008793D1 /* ImagePostTableViewCell.swift in Sources */,
+				3FEDEE3229247862008793D1 /* KeyChainService.swift in Sources */,
+				3FD044332924634B009F7626 /* SceneDelegate.swift in Sources */,
+				3FEDEE3029247844008793D1 /* StringUtilities.swift in Sources */,
+				3FEDEE3729248652008793D1 /* AddAPostViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3FD0443B2924634C009F7626 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FD0443C2924634C009F7626 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FD0443F2924634C009F7626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FD044402924634C009F7626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FD044422924634C009F7626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7F42EB3C4A8C5806311C949 /* Pods-TwitterTok.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TwitterTok/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.northeastern.lan.TwitterTok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FD044432924634C009F7626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7095F76D16670877DAA3BF14 /* Pods-TwitterTok.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TwitterTok/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.northeastern.lan.TwitterTok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FD044282924634B009F7626 /* Build configuration list for PBXProject "TwitterTok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FD0443F2924634C009F7626 /* Debug */,
+				3FD044402924634C009F7626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FD044412924634C009F7626 /* Build configuration list for PBXNativeTarget "TwitterTok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FD044422924634C009F7626 /* Debug */,
+				3FD044432924634C009F7626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FD044252924634B009F7626 /* Project object */;
+}
