@@ -10,13 +10,13 @@ import CoreLocation
 
 class ViewController: UIViewController, CLLocationManagerDelegate {
     
+    @IBOutlet weak var lblCity: UILabel!
+    
     @IBOutlet weak var txtCity: UITextField!
     
     @IBOutlet weak var tblView: UITableView!
     
     let locationManager = CLLocationManager()
-    
-    var addressText = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -57,27 +57,13 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             var address = ""
             guard let place = placeMarks?.first else { return }
             
-            if place.name != nil {
-                address += place.name! +  ", "
-            }
-            
             if place.locality != nil {
-                address += place.locality! +  ", "
+                address += place.locality!
             }
-            if place.subLocality != nil {
-                address += place.subLocality! +  ", "
-            }
-            
-            if place.postalCode != nil {
-                address += place.postalCode! +  ", "
-            }
-            
-            if place.country != nil {
-                address += place.country!
-            }
-            
+
             print(address)
-            self.addressText = address
+
+            self.txtCity.text = address
             
         }
     }
